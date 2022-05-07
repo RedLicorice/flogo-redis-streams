@@ -1,10 +1,10 @@
 {
-  "name": "wssubscriber",
+  "name": "wssubscribernew",
   "type": "flogo:trigger",
-  "version": "1.0.1",
-  "title": "Websocket Subscriber",
-  "description": "Websocket Subscriber connects to a websocket server and reads the data over connection",
-  "homepage": "https://github.com/project-flogo/websocket/tree/master/trigger/wsclient",
+  "version": "1.0.2",
+  "title": "Websocket Subscriber (NEW)",
+  "description": "Websocket Subscriber connects to a websocket server and reads the data over connection, sends first message",
+  "homepage": "https://github.com/redlicorice/flogo-redis-streams/trigger/wsclient",
   "settings": [
     {
       "name": "url",
@@ -28,6 +28,11 @@
       "name": "queryParams",
       "type": "params",
       "description": "HTTP request query params"
+    },
+    {
+      "name": "subscribeRequest",
+      "type": "params",
+      "description": "First message to send to start the subscription"
     },
     {
       "name": "headers",
