@@ -1,0 +1,22 @@
+{
+  "name": "parsejson",
+  "type": "flogo:activity",
+  "ref": "github.com/redlicorice/flogo-redis-streams/activity/parsejson",
+  "version": "0.10.0",
+  "title": "ParseJSON Activity",
+  "description": "Converts given JSON string into JSON Object",
+  "homepage": "https://github.com/project-flogo/contrib/tree/master/activity/xml2json",
+  "input": [
+    {
+      "name": "xmlData",
+      "type": "any",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "name": "jsonObject",
+      "type": "object"
+    }
+  ]
+}
